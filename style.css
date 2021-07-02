@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.navbar{
+    display: flex;
+    font-family: roboto;
+}
+.navbar-nav{
+    display: flex;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-family: roboto;
+}
+
+#section1{
+    height: 500px;
+}
+.onepart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+
+}
+
+.gevaraimg{
+    width: 400px;
+
+}
+.name{
+    margin-right: 50px;
+    font-family: roboto;
+    color: rgb(14, 17, 63);
+    font-size: 3em;
+    font-weight:800;
+    letter-spacing: 2px;
+}
+.detial{
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+
+
+
+#section2{
+    height: 500px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px 0px rgb(156, 150, 150);
+    margin-top: -20px;
+}
+
+.cardimg{
+    width: 200px;
+    margin-top: 8px;
+}
+
+.st{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stdetial{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-left: 3px solid yellow;
+    padding: 10px;
+}
+
+
+.cv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cvimg{
+    width: 50px;
+}
+
+
+#section3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgsocial{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.copy{
+    font-size: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    #section1{
+        height: 400px;
+    }
+
+    .onepart{
+        margin-top: 45px;
+    
+    }
+    .gevaraimg{
+        width: 300px;
+    
+    }
+    
+    .detial{
+        letter-spacing: 0px;
+    }
+
+
+    #section2{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    
+    .card{
+        height: 250px;
+        
+    }
+    .cardimg{
+        width: 100px;
+    }
+
+    .cvimg{
+        width: 30px;
+        margin-top: 30px;
+    }
+
+    .stdetial{
+        font-size: 14px;
+    }
+
+
+    #section3{
+        height: 50px;
+    }
+    .imgsocial{
+        width: 25px;   
+    }
+
+    .copy{
+        font-size: 8px;
+ 
+      }
+      .detial{
+        font-size: 12px;
+        letter-spacing: 0px;
+      }
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 360px) {
+    #section1{
+        height: 250px;
+    }
+    .gevaraimg{
+        width: 125px;    
+    }
+    .name{
+        font-size: 20px;
+    }
+    #section2{
+        height: 300px;
+    }
+    .cards{
+        display: inline;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        height: 170px;
+    }
+    .cardimg{
+        width: 75px;
+    }
+    .cv{
+        display: inline-block;
+    }
+
+    .cvimg{
+        width: 25px;
+        margin-left: 12px;
+    }
+    .stdetial{
+        font-size: 12px;
+    }
+    #section3{
+        height: 100px;
+        margin-top: 450px;
+    }
+    .imgsocial{
+        width: 25px;
+     
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    #section1{
+        height: 250px;
+    }
+    .gevaraimg{
+        width: 125px;    
+    }
+    .name{
+        font-size: 20px;
+    }
+    #section2{
+        height: 300px;
+    }
+    .cards{
+        display: inline;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        height: 170px;
+    }
+    .cardimg{
+        width: 75px;
+    }
+    .cv{
+        display: inline-block;
+    }
+
+    .cvimg{
+        width: 25px;
+        margin-left: 12px;
+    }
+    .stdetial{
+        font-size: 12px;
+    }
+    #section3{
+        height: 100px;
+        margin-top: 450px;
+    }
+    .imgsocial{
+        width: 25px;
+     
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #section1{
+        height: 250px;
+    }
+    .gevaraimg{
+        width: 125px;    
+    }
+    .name{
+        font-size: 20px;
+    }
+    #section2{
+        height: 300px;
+    }
+    .cards{
+        display: inline;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        height: 170px;
+    }
+    .cardimg{
+        width: 75px;
+    }
+    .cv{
+        display: inline-block;
+    }
+
+    .cvimg{
+        width: 25px;
+        margin-left: 12px;
+    }
+    .stdetial{
+        font-size: 12px;
+    }
+    #section3{
+        height: 100px;
+        margin-top: 450px;
+    }
+    .imgsocial{
+        width: 25px;
+     
+    }
+}
